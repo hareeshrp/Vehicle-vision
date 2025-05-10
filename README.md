@@ -71,4 +71,4 @@ This project is inspired by a concept from the Udacity Self-Driving Car Nanodegr
 
 If you're working on similar projects or exploring classical ML in computer vision, I'd love to connect!
 
-[LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN)
+[LinkedIn](www.linkedin.com/in/hareesh-rkanna)
