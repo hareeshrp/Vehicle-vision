@@ -2,7 +2,7 @@
 
 A computer vision pipeline that identifies and tracks vehicles in dashcam footage using traditional machine learning techniques. This project blends feature engineering, sliding window detection, and heatmap-based filtering to build a functional car detector—no deep learning involved!
 
-![vehicle-detection-banner](examples/output_bboxes.jpg) <!-- Optional: add a visual banner -->
+![vehicle-detection-banner](examples/output_bboxes.png) <!-- Optional: add a visual banner -->
 
 ---
 
