@@ -49,7 +49,7 @@ This is a modern implementation of classic vision techniques, built to better un
 
 ## 🎥 Sample Output
 
-![demo](output_images/test_video_advanced.gif)
+![demo](output_video/test_video_advanced.gif)
 
 ---
 
