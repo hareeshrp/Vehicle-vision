@@ -1,12 +1,12 @@
-# 🚗 Vehicle Detection Using Classical Computer Vision
+# Vehicle Detection Using Classical Computer Vision
 
 A computer vision pipeline that identifies and tracks vehicles in dashcam footage using traditional machine learning techniques. This project blends feature engineering, sliding window detection, and heatmap-based filtering to build a functional car detector—no deep learning involved!
 
-![vehicle-detection-banner](images/detection_banner.jpg) <!-- Optional: add a visual banner -->
+![vehicle-detection-banner](examples/output_bboxes.jpg) <!-- Optional: add a visual banner -->
 
 ---
 
-## 📌 Project Summary
+## Project Summary
 
 This project demonstrates a vehicle detection pipeline using handcrafted image features (HOG, color histograms, spatial binning) and a Linear Support Vector Machine (SVM) classifier. It's designed to process road video footage and annotate vehicles in real time.
 
@@ -25,72 +25,31 @@ This is a modern implementation of classic vision techniques, built to better un
 
 ---
 
-## 🧠 Technologies Used
-
-- Python 3.x
-- NumPy, OpenCV, Matplotlib
-- scikit-learn (for ML modeling)
-- MoviePy (for video handling)
-- Jupyter Notebook
-
----
 
 ## 🛠️ How to Run
 
-### 1. Clone this repo
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hareeshrp/vehicle-vision.git
+   cd vehicle-detection-classical-cv
+   ```
 
-```bash
-git clone https://github.com/YOUR_USERNAME/vehicle-detection-classical-cv.git
-cd vehicle-detection-classical-cv
-```
+2. Launch Jupyter Notebook and open `project.ipynb`:
+   ```bash
+   jupyter notebook
+   ```
 
-### 2. Install dependencies
-
-Use pip or conda to install requirements:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Train the classifier & run detection
-
-Open the notebook:
-
-```bash
-jupyter notebook project.ipynb
-```
-
-Or run as a script (if modularized):
-
-```bash
-python src/train_classifier.py
-python src/process_video.py
-```
+3. Run all cells sequentially to:
+   - Extract features
+   - Train the vehicle classifier
+   - Process the video for car detection
 
 ---
 
-## 📂 Repository Layout
-
-```
-.
-├── data/                   # Training datasets
-├── images/                 # Sample input images
-├── results/                # Output images and processed videos
-├── src/                    # Python scripts and helper functions
-│   ├── features.py
-│   ├── detector.py
-│   └── utils.py
-├── model/                  # Trained classifier and scaler
-├── project.ipynb           # Main notebook
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 🎥 Sample Output
 
-![demo](results/vehicle_detection_sample.gif)
+![demo](output_video/test_video_advanced.mp4)
 
 ---
 
@@ -101,15 +60,6 @@ python src/process_video.py
 - Benchmark with YOLO or Haar Cascades for performance comparison
 - Explore false positive suppression using image pyramids
 
----
-
-## 📚 Learnings
-
-- The effectiveness of classical CV methods even in today's DL-dominated world
-- The role of feature scaling and data preparation in traditional ML pipelines
-- Practical insights into debugging detection pipelines using visual outputs
-
----
 
 ## 🧭 Acknowledgments
 
@@ -121,4 +71,4 @@ This project is inspired by a concept from the Udacity Self-Driving Car Nanodegr
 
 If you're working on similar projects or exploring classical ML in computer vision, I'd love to connect!
 
-[LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN) | [GitHub](https://github.com/YOUR_USERNAME)
+[LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN)
